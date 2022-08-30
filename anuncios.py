@@ -2,9 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 1.0 abrir o arquivo e ler a tabela 
-import csv
 df = pd.read_csv("anuncios.csv", sep = ',', low_memory=False)
-print(novodf.head())
+print(df.head())
 
 # 1.1 selecionar as colunas de interesse
 newcol = ['Empresa', 'Nome da ocupação']
